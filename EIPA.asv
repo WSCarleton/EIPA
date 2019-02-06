@@ -37,7 +37,7 @@ for w = 1:nx % x
         elseif s == ny
             G(n, n) = 1;
         elseif w > 10 && w < 20 && s > 10 && s < 20
-            G(n, n) = -2;
+            G(n, n) = 
         else
             G(n, n) = -4;
             G(n, nxp) = 1;
